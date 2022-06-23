@@ -1,0 +1,40 @@
+    .input-machine {
+        display: flex;
+    }
+    
+    .instruments {
+        width: 50%;
+        border: 2px solid rgb(195, 21, 32);
+    }
+    
+    .vizuality {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .machine-efect {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(7, 81, 155);
+        padding: 30px;
+    }
+    
+    input {
+        width: 200px;
+        height: 20px;
+        padding: 3px 8px;
+        outline: none;
+        border: 1px solid rgb(101, 172, 243);
+        margin: 10px;
+    }
+    
+    .title-number-change,
+    .color-change {
+        width: 40px;
+        height: 40px;
+    }

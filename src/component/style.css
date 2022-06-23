@@ -1,0 +1,44 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #269;
+    border-radius: 15px;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-number {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #269;
+    border-radius: 15px;
+    margin: 0 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calk-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-number,
+.more-number {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
